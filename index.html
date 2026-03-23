@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>My Web App</h1>
+</header>
+<main>
+  <section class="card">
+    <h2>Todo List</h2>
+    <input type="text" id="taskInput" placeholder="Enter task...">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+  </section>
+  <section class="card">
+    <h2>Gallery (Lazy Loading)</h2>
+    <img loading="lazy" src="https://picsum.photos/300/200?1" />
+    <img loading="lazy" src="https://picsum.photos/300/200?2" />
+    <img loading="lazy" src="https://picsum.photos/300/200?3" />
+  </section>
+</main>
+<footer>
+  <p>© 2026 My Web App</p>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
